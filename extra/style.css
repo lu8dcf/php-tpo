@@ -73,9 +73,12 @@ body {
   }
 
   .navbar-nav .nav-item .itemGreen {
-    color: rgb(46,166,69);
+    color: rgb(48,163,69);
   }
-
+  /* cambio de botones cuando esta sobre ellos*/
+  .nav-item:hover,.col-lg-auto:hover,.menu3:hover,.menu4:hover,.menu5:hover {
+  background-image: linear-gradient(#0ecaf0, #bef00a);
+  }
   .sectionPrincipal{
     background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.8)), url("../assets/imagenes/ba1.jpg");
     height:80vh;
@@ -86,8 +89,8 @@ body {
   }
 
   .imagenPrincipal {
-    filter: brightness(50%);
-    height:85vh;
+    filter: brightness(45%);
+    height:83vh;
   }
 
   .pbSobreimagen {
@@ -142,16 +145,16 @@ body {
   }
 
 .tarjetaImagen {
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
 }
 .tarjetaContenido {
-    padding:1rem;
+  padding:1rem;
 }
 .tarjetaParrafo {
     width:90%;
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
 }
 
 .tarjetbuttons {
@@ -215,10 +218,10 @@ body {
   font-size: 1rem;
 }
 .section-Form {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cont-Form {
   position: relative;
@@ -251,24 +254,24 @@ body {
   font-size: 2em;
   font-weight: 550;
 }
-  .pieContrlTextarea1 {
-    margin-top: 0px;
-    font-size: 0.9rem;
-    color: grey;
+.pieContrlTextarea1 {
+  margin-top: 0px;
+  font-size: 0.9rem;
+  color: grey;
+}
+.btn-form {
+  color: #fff;
+  background-color: rgb(150, 201, 62);
+  border-color: rgb(150, 201, 62);
+  font-size: 0.9rem;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(30, 79, 109);
+  margin-top: 20px;
   }
-  .btn-form {
-    color: #fff;
-    background-color: rgb(150, 201, 62);
-    border-color: rgb(150, 201, 62);
-    font-size: 0.9rem;
-  }
-  .footer1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(30, 79, 109);
-    margin-top: 20px;
-  }
-  .anotateOrador {
+.anotateOrador {
   margin-top: -12px;
   font-size: 1rem;
   }
