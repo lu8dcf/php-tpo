@@ -282,7 +282,7 @@ body {
 }
 
 
-/*Tamanio Celular SM */
+/*Tamanio Celular SM -------------------------------------*/
 @media screen and (max-width:780px){
  
   .sectionPrincipal{
@@ -295,7 +295,7 @@ body {
   }
   .contenidoPrincipal{
       width: 100%;
-    }
+  }
   .parrafoPrincipal{
     font-size: 0.8em;
     line-height:1rem;
@@ -322,16 +322,13 @@ body {
   .bannerDerecha .btn {
     font-size: 0.8rem;
   }
-
 }
 
-/*Tamanio Tableta MD*/
+/*Tamanio Tableta MD--------------------------------------------------*/
 @media screen and (min-width:781px) and (max-width:1000px){
-
   .pbSobreimagen {
     padding-bottom: 140px;
   }
-  
   .contenidoPrincipal{
     width: 75%;
   }
@@ -357,14 +354,10 @@ body {
     .bannerDerecha .btn {
     font-size: 0.75rem;
   }
-
-
-
 }
 
 /*tamaño lg */
 @media screen and (min-width:1001px) and (max-width:1200px){
-
   .contenidoPrincipal{
     width: 75%;
   }
@@ -383,21 +376,17 @@ body {
     padding:1.8rem ;
     font-size: 0.9rem;
   }
-    .bannerDerecha h3 {
+  .bannerDerecha h3 {
     font-weight: bold;
     font-size: 1.6rem
   }
-    .bannerDerecha .btn {
+  .bannerDerecha .btn {
     font-size: 0.9rem;
   }
-
-
 }
 
-
-/*Mas Grande XL */
+/*Mas Grande XL ----------------------------------------*/
 @media screen and (min-width:1201px){
-
   .btn {
     font-size:1.2rem;
   }
@@ -405,5 +394,4 @@ body {
     background-color: rgb(41, 167, 68);
     border-color: rgb(41, 167, 68);
   }
-
 }
