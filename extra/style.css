@@ -75,7 +75,6 @@ body {
   .navbar-nav .nav-item .itemGreen {
     color: rgb(48,163,69);
   }
-  /* cambio de botones cuando esta sobre ellos*/
   .nav-item:hover,.col-lg-auto:hover,.menu3:hover,.menu4:hover,.menu5:hover {
   background-image: linear-gradient(#0ecaf0, #bef00a);
   }
