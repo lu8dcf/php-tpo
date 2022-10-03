@@ -10,7 +10,7 @@ body {
 }
   .cajaLogo {
     flex: 30%;
-    font-size: 1.375rem; 
+    font-size: 1.38rem; 
     text-align: center;
   }
   .cajaLogo img {
@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(54,57,62);
+    background-color: rgb(50,58,60);
     align-items: center;
     width: 100%;
     }
@@ -52,7 +52,7 @@ body {
   header .imagenPrincipal {
     position: relative;
     display: inline-block;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
     }
 
   header .imagenPrincipal p {
@@ -86,58 +86,53 @@ body {
     align-items:center;
     padding-right: 10em;
   }
-
   .imagenPrincipal {
     filter: brightness(45%);
     height:83vh;
   }
-
   .pbSobreimagen {
     padding-bottom: 90px;
   }
-
-  .contenidoPrincipal{
-      display: flex;
-      flex-direction: column;
-      width: 70%;
-      text-align: right;
-      color:white;
-      padding: 0 0 40 0;
-  }
-
-  .parrafoPrincipal{
-    font-size: 1em;
-    line-height:2rem;
-    text-align: right;
+.contenidoPrincipal{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: right;
+  color:white;
+  padding: 0 0 40 0;
+}
+.parrafoPrincipal{
+  font-size: 1em;
+  line-height:2rem;
+  text-align: right;
+}
+.botonesPrincipal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
  }
-
-  .botonesPrincipal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
- .tarjetas1{
+.tarjetas1{
   display:flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 25px;
 }
-  .tituloTarjetas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .titulo1Tarjetas {
-    margin-top: 1em;
-    font-size: 1em;
-    margin-bottom: 0;
-  }
-  .titulo2Tarjetas {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 1em;
-  }
+.tituloTarjetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo1Tarjetas {
+  margin-top: 1em;
+  font-size: 1em;
+  margin-bottom: 0;
+ }
+.titulo2Tarjetas {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+ }
 .tarjetaImagen {
   width: 100%;
   border-radius: 4px 4px 0px 0px;
@@ -175,8 +170,8 @@ body {
   color: rgb(255, 255, 255);
 }
 .btn-startup {
-  background-color: rgb(221, 52, 71);
-  border-color: rgb(221, 52, 71);
+  background-color: rgb(220, 50, 70);
+  border-color: rgb(220, 50, 70);
   color: rgb(255, 255, 255);
 }
 .tarjetaTitulo {
@@ -216,24 +211,19 @@ body {
   align-items: center;
   width: 60%;
 }
-
 .contenedorForm {
   width:90%;
-
 }
-
 .titulo-Form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .titulo1Form {
   margin-top: 10px;
   font-size: 0.75em;
   margin-bottom: 0%;
 }
-
 .titulo2Form {
   margin-top: -5px;
   font-size: 2em;
@@ -260,15 +250,12 @@ body {
   margin-top: -12px;
   font-size: 1rem;
   }
-
 .anotateOrador span {
   border-bottom: 2px dotted;
 }
-
 #formControlTextarea1 {
   font-size: 1.3rem;
 }
-
 
 /*Tamanio Celular SM -------------------------------------*/
 @media screen and (max-width:780px){
@@ -296,8 +283,8 @@ body {
     font-size:0.8rem;
   }
   .btn-success {
-    background-color: rgb(41, 167, 68);
-    border-color: rgb(41, 167, 68);
+    background-color: rgb(40, 160, 70);
+    border-color: rgb(40, 160, 70);
   }
   .bannerDerecha {
     padding:1.5rem ;
@@ -328,8 +315,8 @@ body {
     font-size:0.9rem;
   }
   .btn-success {
-    background-color: rgb(41, 167, 68);
-    border-color: rgb(41, 167, 68);
+    background-color: rgb(40, 160, 70);
+    border-color: rgb(40, 160, 70);
   }
   .bannerDerecha {
     padding:1.2rem ;
@@ -357,8 +344,8 @@ body {
     font-size:1rem;
   }
   .btn-success {
-    background-color: rgb(41, 167, 68);
-    border-color: rgb(41, 167, 68);
+    background-color: rgb(40, 160, 70);
+    border-color: rgb(40, 160, 70);
   }
   .bannerDerecha {
     padding:1.8rem ;
@@ -379,7 +366,7 @@ body {
     font-size:1.2rem;
   }
   .btn-success {
-    background-color: rgb(41, 167, 68);
-    border-color: rgb(41, 167, 68);
+    background-color: rgb(40, 160, 70);
+    border-color: rgb(40, 160, 70);
   }
 }
