@@ -73,9 +73,11 @@ body {
   }
 
   .navbar-nav .nav-item .itemGreen {
-    color: rgb(46,166,69);
+    color: rgb(48,163,69);
   }
-
+  .nav-item:hover,.col-lg-auto:hover,.menu3:hover,.menu4:hover,.menu5:hover {
+  background-image: linear-gradient(#0ecaf0, #bef00a);
+  }
   .sectionPrincipal{
     background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.8)), url("../assets/imagenes/ba1.jpg");
     height:80vh;
@@ -86,8 +88,8 @@ body {
   }
 
   .imagenPrincipal {
-    filter: brightness(50%);
-    height:85vh;
+    filter: brightness(45%);
+    height:83vh;
   }
 
   .pbSobreimagen {
@@ -137,16 +139,16 @@ body {
     margin-bottom: 1em;
   }
 .tarjetaImagen {
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
 }
 .tarjetaContenido {
-    padding:1rem;
+  padding:1rem;
 }
 .tarjetaParrafo {
     width:90%;
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
 }
 .tarjetbuttons {
   margin-top: 0.5rem;
@@ -201,10 +203,10 @@ body {
   font-size: 1rem;
 }
 .section-Form {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cont-Form {
   position: relative;
@@ -237,24 +239,24 @@ body {
   font-size: 2em;
   font-weight: 550;
 }
-  .pieContrlTextarea1 {
-    margin-top: 0px;
-    font-size: 0.9rem;
-    color: grey;
+.pieContrlTextarea1 {
+  margin-top: 0px;
+  font-size: 0.9rem;
+  color: grey;
+}
+.btn-form {
+  color: #fff;
+  background-color: rgb(150, 201, 62);
+  border-color: rgb(150, 201, 62);
+  font-size: 0.9rem;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(30, 79, 109);
+  margin-top: 20px;
   }
-  .btn-form {
-    color: #fff;
-    background-color: rgb(150, 201, 62);
-    border-color: rgb(150, 201, 62);
-    font-size: 0.9rem;
-  }
-  .footer1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(30, 79, 109);
-    margin-top: 20px;
-  }
-  .anotateOrador {
+.anotateOrador {
   margin-top: -12px;
   font-size: 1rem;
   }
@@ -268,7 +270,7 @@ body {
 }
 
 
-/*Tamanio Celular SM */
+/*Tamanio Celular SM -------------------------------------*/
 @media screen and (max-width:780px){
  
   .sectionPrincipal{
@@ -281,7 +283,7 @@ body {
   }
   .contenidoPrincipal{
       width: 100%;
-    }
+  }
   .parrafoPrincipal{
     font-size: 0.8em;
     line-height:1rem;
@@ -308,16 +310,13 @@ body {
   .bannerDerecha .btn {
     font-size: 0.8rem;
   }
-
 }
 
-/*Tamanio Tableta MD*/
+/*Tamanio Tableta MD--------------------------------------------------*/
 @media screen and (min-width:781px) and (max-width:1000px){
-
   .pbSobreimagen {
     padding-bottom: 140px;
   }
-  
   .contenidoPrincipal{
     width: 75%;
   }
@@ -343,14 +342,10 @@ body {
     .bannerDerecha .btn {
     font-size: 0.75rem;
   }
-
-
-
 }
 
 /*tamaño lg */
 @media screen and (min-width:1001px) and (max-width:1200px){
-
   .contenidoPrincipal{
     width: 75%;
   }
@@ -369,21 +364,17 @@ body {
     padding:1.8rem ;
     font-size: 0.9rem;
   }
-    .bannerDerecha h3 {
+  .bannerDerecha h3 {
     font-weight: bold;
     font-size: 1.6rem
   }
-    .bannerDerecha .btn {
+  .bannerDerecha .btn {
     font-size: 0.9rem;
   }
-
-
 }
 
-
-/*Mas Grande XL */
+/*Mas Grande XL ----------------------------------------*/
 @media screen and (min-width:1201px){
-
   .btn {
     font-size:1.2rem;
   }
@@ -391,5 +382,4 @@ body {
     background-color: rgb(41, 167, 68);
     border-color: rgb(41, 167, 68);
   }
-
 }
