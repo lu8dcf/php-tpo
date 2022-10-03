@@ -115,32 +115,27 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
   }
-
- .sectionTarjetas{
+ .tarjetas1{
   display:flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 25px;
 }
-
   .tituloTarjetas {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .titulo1Tarjetas {
     margin-top: 1em;
     font-size: 1em;
     margin-bottom: 0;
   }
-
   .titulo2Tarjetas {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1em;
   }
-
 .tarjetaImagen {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
@@ -153,7 +148,6 @@ body {
     font-size: 0.8rem;
     line-height: 1.5rem;
 }
-
 .tarjetbuttons {
   margin-top: 0.5rem;
 }
@@ -164,37 +158,31 @@ body {
   font-weight: bolder;
   border-radius: 0.3rem;
 }
-
 .btn-javascript {
   background-color: rgb(254, 192, 8);
   border-color: rgb(254, 192,8);
 }
-
 .btn-react {
   background-color: rgb(22, 162, 185);
   border-color: rgb(22, 162, 185);
   color: rgb(255, 255, 255);
 }
-
 .btn-negocios {
   background-color: rgb(108, 118, 128);
   border-color: rgb(108, 118, 128);
   color: rgb(255, 255, 255);
 }
-
 .btn-startup {
   background-color: rgb(221, 52, 71);
   border-color: rgb(221, 52, 71);
   color: rgb(255, 255, 255);
 }
-
 .tarjetaTitulo {
   margin-top: 0.2rem;
   font-size: 1.4rem;
   font-weight: 500;
   padding-bottom: 0.5rem;
 }
-
 .bannerDerecha {
   height:100%;
   padding:2rem ;
@@ -205,12 +193,10 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-
 .bannerDerecha h3 {
   font-weight: bold;
   font-size: 1.8rem
 }
-
 .bannerDerecha .btn {
   font-size: 1rem;
 }
