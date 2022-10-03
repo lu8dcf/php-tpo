@@ -54,7 +54,6 @@ body {
     display: inline-block;
     background-color: rgba(0,0,0,0.7);
     }
-
   header .imagenPrincipal p {
     position: absolute;
     top: 45%;
@@ -66,16 +65,14 @@ body {
     line-height: 1.5;
     color: white;
   }
-
   .navbarMod {
     background-color: rgb(53,58,64);
     justify-content: space-between;    
   }
-
   .navbar-nav .nav-item .itemGreen {
     color: rgb(48,163,69);
   }
-  .nav-item:hover,.col-lg-auto:hover,.menu3:hover,.menu4:hover,.menu5:hover {
+  .nav-item:hover,.col-lg-auto:hover {
   background-image: linear-gradient(#0ecaf0, #bef00a);
   }
   .sectionPrincipal{
@@ -93,7 +90,7 @@ body {
   .pbSobreimagen {
     padding-bottom: 90px;
   }
-.contenidoPrincipal{
+.texto-principal{
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -106,7 +103,7 @@ body {
   line-height:2rem;
   text-align: right;
 }
-.botonesPrincipal {
+.boton-1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -148,7 +145,6 @@ body {
 .tarjetbuttons {
   margin-top: 0.5rem;
 }
-
 .btn-tarjeta {
   padding: 0 0.2rem;
   font-size: 0.8rem;
@@ -156,17 +152,17 @@ body {
   border-radius: 0.3rem;
 }
 .btn-javascript {
-  background-color: rgb(254, 192, 8);
-  border-color: rgb(254, 192,8);
+  background-color: rgb(255, 190, 10);
+  border-color: rgb(255, 190,10);
 }
 .btn-react {
-  background-color: rgb(22, 162, 185);
-  border-color: rgb(22, 162, 185);
+  background-color: rgb(20, 160, 190);
+  border-color: rgb(20, 160, 190);
   color: rgb(255, 255, 255);
 }
 .btn-negocios {
-  background-color: rgb(108, 118, 128);
-  border-color: rgb(108, 118, 128);
+  background-color: rgb(110, 120, 130);
+  border-color: rgb(110, 120, 130);
   color: rgb(255, 255, 255);
 }
 .btn-startup {
@@ -268,15 +264,15 @@ body {
   .pbSobreimagen {
     padding-bottom: 190px;
   }
-  .contenidoPrincipal{
-      width: 100%;
+  .texto-principal{
+      width: 99%;
   }
   .parrafoPrincipal{
     font-size: 0.8em;
     line-height:1rem;
     text-align: end;
   }
-  .botonesPrincipal {
+  .boton-1 {
     justify-content: flex-end;
   }
   .btn {
@@ -304,8 +300,8 @@ body {
   .pbSobreimagen {
     padding-bottom: 140px;
   }
-  .contenidoPrincipal{
-    width: 75%;
+  .texto-principal{
+    width: 76%;
   }
   .parrafoPrincipal{
     font-size: 0.9em;
@@ -333,7 +329,7 @@ body {
 
 /*tamaño lg */
 @media screen and (min-width:1001px) and (max-width:1200px){
-  .contenidoPrincipal{
+  .texto-principal{
     width: 75%;
   }
   .parrafoPrincipal{
