@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+.barraNavegador{
+    height: 100px;
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerFlex {
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-left: 5rem;
+}
+
+.imgLogo {
+    width: 20%;
+}
+.boxLinksNavegador {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5rem;
+
+}
+
+.linkConferencia{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.linksNav {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkComprarTickets {
+    color: green;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrap {       
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    background:linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url("ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 13%
+
+}
+.wrapTexto {
+    color: white;
+    width: 50%;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+.bgBlue{
+    background-color: blue;
+}
+
+
+
+.TitulosTarjetasyBotones {
+    padding: 5px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.JavascriptBoton {
+    display: inline-block;
+    background-color: rgb(254, 193, 6);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.React {
+    display: inline-block;
+    background-color: rgb(26, 162, 186);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.Negocios {
+    display: inline-block;
+    background-color: rgb(108, 117, 124);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    width: 63px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    margin: 0 5px 0 5px;  
+    font-family: 'Open Sans', sans-serif;
+    padding: 1px;
+}
+
+.Startups {
+    display: inline-block;
+    background-color: rgb(220, 53, 70);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif;
+    padding: 1px;
+
+}
+
+
+
+.boxSteveJobs{
+    height: 500px;
+    width: 280px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}  
+
+.bordesRedondeados{
+    border-radius: 3px;
+}
+
+.boxBillGates{
+    height: 500px;
+    width: 280px;
+    border: solid 1px rgb(221, 221, 221);
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.textoTarjeta {
+    padding: 0 5px 0 5px;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 0.8rem;
+    line-height: 20px;
+
+
+}
+
+
+.boxAda{
+    height: 500px;
+    width: 280px;
+    border: solid 1px rgb(221, 221, 221);
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Conviertete {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: light;
+    font-size: 0.9rem;
+    margin: o auto;
+    padding: 0;
+    
+}
+
+.Orador {
+    color: black;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: light;
+    font-size: 2.2rem;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: bolder;
+
+}
+
+.letraNegra{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+.letraBlanca{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.Anotate {
+    
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+    
+.conoce{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.link{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(39, 168, 68);
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+} 
+
+.linkQuieroSer{
+    text-decoration: none;
+    color: white;
+    width: 160px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px rgb(221, 221, 221);
+    margin-bottom: 10px;
+
+    
+    
+} 
+
+.linkLetraVerde{
+    color: rgb(39, 168, 68);
+}
+
+.conoceAlosOradores {
+
+    justify-content: center;
+}
+
+
+.conoceOradores {
+    display: flex; 
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    }
+
+
+.BsAsFlex {
+    display: flex;
+}
+
+.Honolulu{    
+    width: 50%;
+}
+
+.textoBsAsOctubre {
+    padding: 0px 15px 0px 20px;    
+    background-color: rgb(52, 58, 64);    
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+.conoceMas {
+    height: 30px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    border: solid white 1px; border-radius: 5%;
+    text-align: center;
+    padding: 3.5px;
+}
+
+
+
+.navegador {
+    width: 100vw;
+    display: flex;
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NombreyApellido {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nombre {
+    width: 320px;
+    height: 30px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.apellido {
+    width: 320px;
+    height: 30px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 3.5px;
+    padding: 6px;
+}
+
+.sobreQue {
+    width: 680px;
+    height: 100px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 9px;
+    font-weight: bold;
+}
+.botonEnviar {
+    display: inline-block;
+    width: 50vw;
+    height: 40px;
+    background-color: rgb(150, 201, 62);
+    border-radius: 5px;    
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Recuerda {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: light;
+    color: grey;
+}
+
+body footer {
+    height: 85px;
+    background-color: rgb(29, 71, 95);
+
+}
+
+.Footer {
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    padding: 0px 100px 0px 100px;
+}
+
+
+.linksFooter {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+.PreguntasFrecuentes {
+    display: inline-block;
+    width: 90px;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .headerFlex {
+        flex-direction: column;
+
+    
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+   
+
+    .boxLinksNavegador {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .linkConferencia{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        height: 30px;
+        padding: initial;
+    
+    }
+    .linksNav {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(165, 165, 165);
+        font-family: 'Open Sans', sans-serif;
+        height: 30px;
+        width: 100%;
+        padding: initial;
+        text-align: center;
+    }
+
+    
+    .linkConferencia{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+    
+    }
+
+    .linkComprarTickets {
+        color: green;
+        text-decoration: none;
+        width: 100%;
+        height: 30px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+
+    .conoceOradores {
+        display: flex; 
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: initial;
+
+        }
+
+    .BsAsFlex {
+        flex-direction: column;
+    }
+
+    .Honolulu{    
+        width: 100%;
+    }
+
+    .textoBsAsOctubre {
+        padding: 15px 15px 20x 20px;    
+        background-color: rgb(52, 58, 64);    
+        font-size: 0.8rem;
+        font-weight: 300;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+        
+.conoceMas {
+    height: 30px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    border: solid white 1px; border-radius: 5%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+body footer {
+    height: 180px;
+    background-color: rgb(29, 71, 95);
+
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    padding: initial;
+    justify-content: center;
+}
+
+.linksFooter {
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    padding: 2.5px;
+
+
+}
+
+.PreguntasFrecuentes {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    padding: 2.5px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Anotate {
+    width: 70%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    margin: 10px auto;
+}
+
+.NombreyApellido {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nombre {
+    width: 100%;
+    height: 30px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.apellido {
+    width: 100%;
+    height: 30px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 3.5px;
+    padding: 6px;
+}
+
+.sobreQue {
+    width: 100%;
+    height: 100px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 9px;
+    font-weight: bold;
+}
+.botonEnviar {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(150, 201, 62);
+    border-radius: 5px;    
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
