@@ -10,8 +10,7 @@ let mail = document.getElementById("mail");
 const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/; 
 let cantidad = document.getElementById("cantidad"); 
 let categoria = document.getElementById("categoria"); 
-/*let total = document.getElementById("total"); 
-let resumen = document.getElementById("resumen");*/ 
+ 
  
 function total_pagar() {     
     if (nombre.value === "") { 
@@ -69,11 +68,11 @@ function total_pagar() {
 
 
  
-function reset_total_pagar() { 
+function reset() { 
     total.innerHTML = ""; 
 } 
 
-borrar.addEventListener('click', reset_total_pagar); 
+borrar.addEventListener('click', reset); 
 
 
 
