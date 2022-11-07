@@ -136,7 +136,7 @@
             <label for="inputCategoria" class="form-label">Categoria</label> 
             <select type="number" id="categoria" name="categoria" class="form-select"> 
                 <option selected>--Seleccione--</option> 
-                <option value="0">--Seleciona Opción--</option> 
+                <option value="0">--Seleciona Opción--</option><!--Este se podria sacar, ya esta la opcion de seleccione -->
                 <option value="1">Estudiante</option> 
                 <option value="2">Trainee</option> 
                 <option value="3">Junior</option> 
@@ -150,22 +150,24 @@
         <div class="col-2"> </div>
         <div class="col-10 mb-0"> 
             <p class="form-control w-100 p-3 bg-primary bg-opacity-25" type="text" id="total"  
-             name="total" value="Total a pagar: $ " > Total a pagar: $</p>
-             <p id="total"></p>
+              > Total a pagar: $</p>
+             <p id="resultado"></p>
         </div>
       </div>
 
         <!--botones--> 
         <div class="row my-0 g-2"> 
           <div class="col-2"> </div>
-            <div class="col-5"> 
-                <button class="btn w-100" id="borrar" type="reset"  
-                 style="background-color: rgb(131, 234, 29);">Borrar</button> 
-            </div> 
+            
             <div class="col-5"> 
                 <button class="btn w-100" id="resumen" type="submit" 
-                 style="background-color: rgb(131, 234, 29);">Resumen</button> 
+                 style="background-color: rgb(131, 234, 29);">Borrar</button> 
             </div> 
+
+            <div class="col-5"> 
+              <button class="btn w-100" id="totalboton" onclick="total_pagar()" type="button"  
+               style="background-color: rgb(131, 234, 29);">Resumen</button> 
+          </div> 
         </div> 
     </div> 
 </form>
