@@ -38,27 +38,32 @@ function total_pagar() {
         alert('[ERROR] Seleccione una Categoria para el Descuento'); 
         return; 
     } 
+    if (categoria.value == "--Seleccione--") { 
+        alert('[ERROR] Seleccione una Categoria para el Descuento'); 
+        return; 
+    } 
  
     let totalValTik = (cantidad.value) * valorTicket; 
+
  
-    if (valorTik == 0) { 
+    if (categoria.value == 0) { 
         totalValTik = totalValTik; 
     } 
     
-    if (valorTik == 1) { 
+    if (categoria.value == 1) { 
         totalValTik = totalValTik * (1-(descEstu / 100)); 
     } 
 
-    if (valorTik == 2) { 
+    if (categoria.value == 2) { 
         totalValTik = totalValTik * (1-(descTrain / 100)); 
     } 
 
-    if (valorTik == 3) { 
+    if (categoria.value == 3) { 
         totalValTik = totalValTik * (1-(descJunior / 100)); 
     } 
-         
-    total.innerHTML = totalValTik; 
-    document.getElementById("total").innerHTML = totalValTik;
+    var output= "Total a pagar: $"+ Math.round(totalValTik);
+    document.getElementById('total').innerHTML = output;
+    
 } 
 
 
